@@ -1,0 +1,95 @@
+a:link {
+	text-decoration: none;
+}	
+
+body {
+	background-color: lightgrey;
+	color: orange;
+}
+
+	<style>
+	h2 {
+	color: red;
+	text-align: center;
+}
+
+.blue {
+	color: blue;
+	font-weight: bold;
+}
+
+.green {
+	color: green;
+	font-weight: bold;
+	font-style: italic;
+	background-color: yellow;
+}
+
+.yellow {
+	color: yellow;
+	font-weight: bold;
+	background-color: forestgreen;
+}
+
+ul.pink > li {
+	color: hotpink;
+	font-weight: bold;
+	background-color: black;
+}
+
+ol > li {
+	color: maroon;
+	font-weight: bold;
+}
+
+ol > ul > li {
+	color: lightskyblue;
+	font-weight: bold;
+}
+
+ol > ul, li {
+	color: lightgreen;
+	font-weight: bold;
+}
+
+div > h1 {
+	color: gold;
+	font-weight: bold;
+}
+
+div > article {
+	color: orangered;
+	font-style: italic;
+	font-weight: bold;
+	background-color: black;
+	display: block;
+	width: 1000px;
+}
+
+section > article {
+	color: forestgreen;
+	font-weight: bolder;
+	border: 2px solid limegreen;
+	text-align: center;
+	margin-bottom: 2px;
+	display: block;
+	width: 1000px;
+}
+
+div article.cornflowerblue {
+	color: cornflowerblue;
+}
+
+section article.big {
+	font-weight: bolder;
+	color: violet;
+}
+
+article:nth-child(2) {
+	font-size: 24px;
+}
+
+div > h1 {
+	text-align: center;
+}
+</style>
