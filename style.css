@@ -49,7 +49,7 @@ ol > ul > li {
 }
 
 ol > ul, li {
-	color: lightgreen;
+	color: darkseagreen;
 	font-weight: bold;
 }
 
@@ -92,4 +92,39 @@ article:nth-child(2) {
 
 div > h1 {
 	text-align: center;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#box {
+	background-color: maroon;
+	padding: 10px;
+	border: 30px solid lightblue;
+	margin: 50px;
+}
+
+#content {
+	background-color: darkolivegreen;	
+}
+
+#bg {
+	width: 567px;
+	height: 500px;
+	background-image: url("Little Pang.jpg");
+	background-color: green;
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+#bg2 {
+	width: 567px;
+	height: 500px;
+	background: url("Little Pang.jpg") repeat-x bottom;
+	background-color: cadetblue; 
+}
+
+#bg2margin {
+	margin-top: 10px;
 }
