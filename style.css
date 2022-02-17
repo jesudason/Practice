@@ -201,3 +201,51 @@ section {
 	color: lightcyan;
 	font-weight: bolder;
 }
+
+h3 {
+	margin-bottom: 20px;
+	color: saddlebrown;
+	font-weight: bold;
+}
+
+p#media {
+	border: 2px solid black;
+	margin-bottom: 15px;
+}
+#p11 {
+	background-color: burlywood;
+	color: black;
+	width: 300px;
+	height: 300px;
+}
+#p12 {
+	background-color: rosybrown;
+	color: black;
+	width: 100px;
+	height: 100px;
+}
+/*********Large devices only*********/
+@media (min-width: 1200px) {
+	#p11 {
+		width: 80%;
+	}
+	#p12 {
+		width: 200px;
+		height: 200px;
+	}
+}/*****Medium Sized*****/
+@media (min-width: 992px) and (max-width: 1199px) {
+	#p11 {
+		width: 50%;
+	}
+	#p12 {
+		width: 150px;
+		height: 150px;
+	}
+}
+h4 {
+	color: black;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
